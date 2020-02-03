@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="cv_camera" type="cv_camera_node" name="cv_camera">
+        <param name="device_id" value="0"/>
+    </node>
+    <node pkg="gs_apriltag" type="apriltag_node.py" name="apriltag_detection_node"/>
+    <node pkg="gs_apriltag" type="view_raw_image_node.py" name="camera_view"/>
+    <node pkg="gs_apriltag" type="pioneer_ros_serial.py" name="serial_node"/>
+</launch>
