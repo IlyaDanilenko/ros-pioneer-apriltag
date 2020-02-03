@@ -26,8 +26,7 @@ Robot Operating System with GEOSCAN Pioneer
 
 ### Коментарии автора
 На выполенение самой работы времени понадобилось не очень много, но для настройки Raspberry Pi с нуля очень много. 
-Все ноды рабочие, но проверить передачу данных на Pioneer мне не удалось по причине не работающего UART на плате.
-
+Все ноды рабочие, видео с демонстрацией передачи данных на пионер будет записано, как только появится доступ к плате пионера с работоспособным uart, ориентировочно 6-9 февраля.
 ### Зависимости
 
 В пакете [gs_apriltag](https://github.com/IlyaDanilenko/ros-pioneer-apriltag/tree/master/gs_apriltag) используются некоторые пакеты ROS и Python
@@ -39,3 +38,4 @@ Robot Operating System with GEOSCAN Pioneer
 Пакеты Python
 * OpenCv
 * apriltag
+* PySerial
