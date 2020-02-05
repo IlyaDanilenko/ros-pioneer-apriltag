@@ -31,4 +31,4 @@ rospy.init_node("pioneer_ros_serial_node") # инициализация ноды
 sub=Subscriber("/geoscan/apriltag_id",Int32,callback) # объявление подписки на топик с id apriltag
 
 while not rospy.is_shutdown():  # обязательное часть иначе нода прирвется после приема одного сообщения 
-    n=0
+    pass
