@@ -33,4 +33,4 @@ def callback(data): # функция обработки подписчика
 sub=Subscriber("/cv_camera/image_raw",Image,callback) # подписчик на топик в котором публикуется изображения камеры
 
 while not rospy.is_shutdown(): # обязательное часть иначе нода прирвется после приема одного сообщения
-    n=0
+    pass
