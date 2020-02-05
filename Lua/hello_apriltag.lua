@@ -1,4 +1,4 @@
-local uartNum = 1 --Номер UART
+local uartNum = 4 --Номер UART
 local baudRate = 9600 --скорость передачи данных
 local stopBits = 1 
 local parity = Uart.PARITY_NONE 
@@ -22,7 +22,7 @@ local function takeFunc() -- функция обработки сообщени�
     elseif(inp == '0') then -- красный если id=0
         color(1,0,0)
     elseif(inp == '1') then -- синий если id=1
-        color(0,0,1)
+        color(0,1,0)
     end
 end
 
