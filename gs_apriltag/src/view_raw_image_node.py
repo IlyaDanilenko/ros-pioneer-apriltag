@@ -23,5 +23,4 @@ def callback(data): # функция подписчика
 sub=Subscriber("/cv_camera/image_raw",Image,callback) # создания подписчика на топик с изобрадениями с камер
 
 while not rospy.is_shutdown(): # обязательное часть иначе нода прирвется после приема одного сообщения 
-    n=0
-
+    pass
