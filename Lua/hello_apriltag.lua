@@ -12,9 +12,8 @@ local function color(r,g,b) -- функция заливки всех свето
     end
 end
 
-local sync = 0.08 -- задержка синхронизации
+local sync = 0.1 -- задержка синхронизации
 
-local inp = ''
 local function takeFunc() -- функция обработки сообщений с uart
     inp = uart:read(1)
     if(inp == 'n') then -- лампочки не горят при отсутствии apriltag
